@@ -1,19 +1,12 @@
 h2 {
   font-size: 30px;
-}
-div.contacts {
-  margin-bottom: 20px;
-}
-.form_action {
-  display: none;
-}
+} 
 .inheader-container {
   display: flex;
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  
 }
 .inheader-img {
   flex-basis: content;
@@ -47,62 +40,40 @@ div.contacts {
 }
 
 .content-left {
-  width: 30%;
+  width: 60%;
   padding-left: 5%;
   vertical-align: top;
 }
 @media (min-width: 750px) {
   .content-left {
-      width: 30%;
+      width: 60%;
   }
 }
-.content-right {   
-  width: 65%;
-  vertical-align: top;  
-}
-@media (min-width: 750px) {
-  .content-right {
-      width: 65%;
-  }
-}
-
-.item-container {
-  display: block;
-}
-
-.about-item {
+.courseCard {
   display: flex;
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;    
-}
-
-.text-part {
-  
-  width: 70%;
-  text-align: justify;
-  flex-basis: content;  
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0px 30px 50px 10px;
 }
 @media (min-width: 750px) {
-  .text-part {
-      width: 60%;
+  .courseCard {
+      width: 100%;
   }
 }
-.image-part {
-  flex-grow: inherit;
-  width: 100%;
-  align-content: right;
-  margin-right: 0;
-  padding-top: 13%;
-  vertical-align: bottom;
-  flex-basis: content;
-  padding-right: 2%;    
+.courseImage {
+  padding-left: 3%;
+  padding-top: 1%;
 }
-@media (min-width: 750px) {
-  .image-part {
-      width: 35%;
-  }
+.imageOfCourse {
+  width: 230px;
+}
+.courseTitle {
+  font-size: 20px;
+  font-weight: bold;
 }
 .courseBtn {
   font-size: 100%;
@@ -110,4 +81,27 @@ div.contacts {
   padding: 3px 20px;
   background-color: rgb(233, 233, 233);
   font-family: 'Jaldi';
+}
+.courseProperties {
+  padding-left: 60px;
+}
+
+.content-right {   
+  width: 35%;
+  vertical-align: top;  
+}
+@media (min-width: 750px) {
+  .content-right {
+      width: 35%;
+  }
+}
+.shoppingCartTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+div.contacts {
+  margin-bottom: 20px;
+}
+.form_action {
+  display: none;
 }
